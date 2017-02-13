@@ -3,7 +3,7 @@ require 'spec_helper'
 
 describe Car do
 
-  subject { described_class.new(driver: 'Johan')}
+  subject { described_class.new(driver: 'Johan') }
 
    it 'has driver on initialize' do
       expected(subject.driver).not_to be nil
